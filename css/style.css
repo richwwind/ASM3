@@ -1,0 +1,693 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+.font-italic{
+    font-style: italic;
+}
+section > .container1{
+    width: 80%;
+    margin: auto;
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+}
+
+
+/* banner set up */
+#banner{
+    text-align: center;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    position: relative;
+}
+
+/* chinh banner text */
+.banner-text{
+    padding-left: 30px;
+}
+#target{
+    margin: 0;
+}
+#banner h1{
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Cursive;
+}
+#banner span{
+    font-weight: lighter;
+    color: rgb(201, 201, 201);
+    font-family: Monospace;
+}
+#banner img{
+    display: none;
+}
+/*nav set up */
+#nav-bar .container1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    height: 50px;
+    justify-content: space-between;
+    width: 900px;
+}
+#nav-bar .container1 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#nav-bar .container1 img{
+    position: absolute;
+    top: -37px;
+    left: 395px;
+}
+.avt{
+    border-radius: 50%;
+    width: 100px;
+    border: 7px solid whitesmoke;
+}
+.tt, .cc, .ll, .pj{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.tt , .cc{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid rgb(214, 214, 214);
+    border-right: 1px solid rgb(214, 214, 214);
+}
+.ll , .pj{
+    border-right: 1px solid rgb(214, 214, 214);
+    padding-right: 20px;
+}
+
+#nav-bar .container1 div i{
+    color: #199cdb;
+}
+
+/* muc tieu set up */
+
+.dien-tt{
+    margin-top: 40px;
+}
+.dien-tt input{
+    width: 90%;
+    outline: none;
+    padding-left: 10px;
+}
+.dien-tt input:focus{
+    border: 3px solid lightblue;
+}
+.dien-tt label{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.dien-tt button{
+    margin-top: 30px;
+}
+#about .container1{
+    display: flex;
+    flex-basis: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: stretch;
+}
+#target{    
+    width: 50%;
+}
+#personal-info{
+    background-color: #f0eded;
+    justify-self: stretch;
+    width: 50%; 
+}
+.ctx1, .ctx2{
+    margin-top: 50px;
+    margin-left: 40px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.ctx1 p{
+    margin-top: 30px;
+    color: rgb(106, 106, 106);
+    margin-right: 20px;
+}
+.ctx2 ul{
+    margin-top: 30px;
+    padding: 0;
+    margin-left: 10;
+    list-style-type: none;
+    color: rgb(106, 106, 106);
+    display: none;
+}
+.info span{
+    font-weight: bold;
+    color: black;
+}
+.footer-info{
+    color:  #199cdb;
+    margin-left: 40px;
+    padding-bottom: 42px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    display: none;
+}
+
+/* kinh nghiem */
+.btn-hide{
+    display: none;
+}
+.show{
+    display: none !important;
+}
+
+#job-info button{
+    border-radius: 100px;
+    font-size: 12px;
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.col-xl-4{
+    width: 31%;
+}
+.row p{
+    margin-bottom: 5px;
+}
+#job-info .row{
+    gap: 30px;
+}
+.kn{
+    width: 31%;
+}
+.header-kn i{
+    font-size: 50px;
+    color: rgb(166, 166, 166);
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.header-kn h1{
+    font-size: 30px;
+    font-weight: normal;
+    width: 168px;
+}
+.header-kn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.kn{
+    border: 1px solid rgb(216, 215, 215);
+}
+.fullsd{
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 40px;
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-right: 40px;
+}
+.fullsd span{
+    background-color:#199cdb;
+    border-radius: 100px;
+    padding: 3px 10px 3px 10px;
+    color: white;
+}
+.kn ul{
+    padding-left: 30px;
+    margin-right: 40px;
+    list-style: none;
+}
+.fullsd::before{
+    content: "●";
+    display: inline-block;
+    color: rgb(35, 107, 252);
+    position: absolute;
+    left: -30px;
+    top: -4px;
+    font-size: 20px;
+    
+}
+.webds{
+    line-height: 1.5;
+    color: gray;
+    position: relative;
+    margin-left: 10px;
+}
+.webds::before{
+    content: "●";
+    display: inline-block;
+    color: rgb(35, 107, 252);
+    position: absolute;
+    left: -30px;
+    top: -4px;
+    font-size: 20px;
+}
+
+
+/* hoc van*/
+.hv{
+    border: 1px solid rgb(216, 215, 215);
+}
+.hv ul{
+    padding-left: 30px;
+    list-style: none;
+}
+.headerhv{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.headerhv i{
+    margin-right    : 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(166, 166, 166);
+}
+.headerhv h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.funix{
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 40px;
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-right: 40px;
+}
+.funix::before,.DHFPT::before{
+    content: "●";
+    display: inline-block;
+    color: rgb(35, 107, 252);
+    position: absolute;
+    left: -30px;
+    top: -4px;
+    font-size: 20px;
+}
+.DHFPT{
+    line-height: 1.5;
+    color: gray;
+    position: relative;
+    margin-left: 10px;
+}
+
+/* hoat dong */
+.hd{
+    border: 1px solid rgb(216, 215, 215);
+}
+
+.hd ul{
+    padding-left: 30px;
+    list-style-type: none;
+}
+.headerhd{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.headerhd i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: rgb(166, 166, 166);
+}
+.headerhd h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.FPTEDU{
+    color: gray;
+    line-height: 1.5;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.FPTEDU::before{
+    content: "●";
+    display: inline-block;
+    color: rgb(35, 107, 252);
+    position: absolute;
+    left: -30px;
+    top: -4px;
+    font-size: 20px;
+}
+.clb{
+    color: gray;
+    line-height: 1.5;
+    position: relative;
+    margin-left: 10px;
+}
+.clb::before{
+    content: "●";
+    display: inline-block;
+    color: rgb(35, 107, 252);
+    position: absolute;
+    left: -30px;
+    top: -4px;
+    font-size: 20px;
+}
+
+/* so thik */
+
+.hobby{
+    border: 1px solid rgb(216, 215, 215);
+}
+.headerhb{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.headerhb i{
+    margin-right: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(166, 166, 166);
+}
+.headerhb h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+/* icon-list */
+.icon{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+.icon div i{
+    font-size: 20px;
+    border:1px solid rgb(73, 134, 255);
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color:  #199cdb;
+}
+.music, .game, .travel, .cook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.icon div p{
+    color: gray;
+}
+
+/* ngon ngu */
+
+.lguae{
+    border: 1px solid rgb(216, 215, 215);
+}
+.headerlg{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.headerlg i{
+    margin-right: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(166, 166, 166);
+}
+.headerlg h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.lguae p{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.d1,.d2,.d3{
+    height: 5px;
+    background-color: blue;
+    width: 20%;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.d3{
+    background-color: #d6d6d6;
+    margin-right: 40px;
+}
+.d1{
+    margin-left: 22px;
+}
+.d2,.d3{    
+    margin-left: 5px;
+}
+
+/* ky nang */
+.skill{
+    border: 1px solid rgb(216, 215, 215);
+}
+.header-skill{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header-skill i{
+    margin-right: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(166, 166, 166);
+}
+.header-skill h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.skill p{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* chung chi-giai thuong */
+.cclayout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+}
+.cclayout img{
+    width:  166.25px;
+    height: 96.75px;
+}
+.cc1,.cc2{
+    display: flex;
+    gap: 20px;
+}
+.ctx-cc1,.ctx-cc2,.ctx-cc3{
+    line-height: 1.5;
+}
+.ctx-cc1 p,.ctx-cc2 p, .ctx-cc3 p{
+    color: gray;
+    margin-top: 5px;
+}
+.cc2{
+    margin-left: 20px;
+}
+.cc1{
+    border-right: 1px solid #d6c08d ;
+    padding-right: 30px;
+    /* margin-bottom: 30px; */
+}
+.cc1,.cc2{
+    margin-bottom: 41px;
+}
+
+.cc3{
+    border-top:  1px solid #d6c08d;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    grid-column: 1/-1;
+}
+.cc3 img{
+    width:  166.25px;
+    height: 96.75px;
+}
+
+/* project */
+
+#project p{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.pjlayout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    grid-template-rows: 1fr;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.pj1 img{
+    width: 100%;
+    border-bottom:  1px solid rgb(222, 222, 222);
+}
+.pj1 h4{
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.human, .develop,.below-st{
+    display: flex;
+}
+.below-st p{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.below-st, .human, .develop{
+    display: flex;
+}
+.below-st{
+    padding: 10px 0 10px 20px;
+    flex-wrap: wrap;
+}
+.human, .develop{
+    gap: 10px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1430px){
+    .develop{
+        margin-left: 78.5px;
+    }
+}
+.develop{
+    /* margin-le     */
+    margin-right: 20px;
+}
+.below-st{
+    align-items: center;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.below-st p:first-child{
+    border-radius: 100px;
+    background-color:#199cdb;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+    text-align: center;
+    color: white;
+}
+.pj1 h4{
+    font-size: 20px;
+}
+.p1,.p2,.p3{
+    display: flex;
+    gap: 20pX;
+}
+.p1 p:first-child,.p2 p:first-child,.p3 p:first-child{
+    width: 30%;
+}
+.p1 p:nth-child(2),.p2 p:nth-child(2),.p3 :nth-child(2){
+    margin-right: 20px;
+    width: 70%;
+}
+.p1,.p2{
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.p3{
+    padding: 10px 0 10px 10px;
+}
+.ctx-pj1{
+    border: 1px solid  rgb(222, 222, 222);
+    border-top: none;
+    color: gray;
+    height: 100%;
+}
+.pj1{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+/* footer */
+#footer .container1 ul li div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#footer p{
+    margin-bottom: 0;
+}
+
+#footer .container1 ul{
+    list-style: none;
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+#footer .container1 ul li div i{
+    font-size: 25px;
+    color:#199cdb;
+}

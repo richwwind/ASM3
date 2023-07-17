@@ -1,0 +1,102 @@
+@media screen and (max-width: 767.9px) {
+    /* hide the text at the footer8 */
+    #footer p{
+        display: none;
+    }
+    #footer ul{
+        padding-left: 0;
+    }
+    /* make more space */
+    section > .container1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /* chung chi setting */
+    .cc1,.cc2,.cc3{
+        flex-wrap: wrap;
+    }
+    .cc1 img,.cc2 img{
+        width: 100%;
+        height: auto;
+    }
+    .cc3 img{
+        width:50%;
+        height: auto;
+    }
+
+
+    /* navbar setting */
+    #nav-bar img{
+        display: none;
+    }
+    #nav-bar .container1{
+        width: 80%;
+    }
+    #banner{
+        height: 700px;
+    }
+    .p1,.p2,.p3{
+        gap: 20px;
+    }
+    .col-md-6{
+        width: 100%;
+    }
+    #nav-bar .container1,.left,.right{
+        flex-direction: column;
+        height: auto;
+        align-items: start;
+        border: none;
+        gap: 5px;
+    }
+    .tt,.ll,.cc,.pj{
+        border: none;
+        padding: 0;
+        flex-direction: row-reverse;
+    }
+
+    /* intro setting */
+    #about .container1{
+        flex-direction: column;
+    }
+    #personal-info,#target{
+        width: 100%;
+    }
+    #target{
+        padding-bottom: 40px;
+    }
+
+    /* setting chung chi layout */
+    .cc1,.cc2,.cc3{
+        grid-column: 1/-1;
+        margin-left: 0;
+        padding: 0;
+        border: none;
+    }
+    .cc2,.cc3{
+        border-top: 1px solid #d6c08d;
+        padding-top: 40px;
+    }
+    .cc3 img{
+        width:100%;
+        height: auto;
+    }
+
+    /* project setting */
+    @media screen and (max-width: 950px) {
+        .develop{
+            margin: 0;
+        }
+        .human{
+            margin: 0;  
+        }
+        .below-st{
+            flex-direction: column;
+            align-items: start;
+            gap: 10px;
+        }
+    }
+    .pj1{
+        grid-column: 1/-1;
+    }
+}
